@@ -2,7 +2,7 @@ class windows_user {
 
   user { 'developer':
     ensure   => 'present',
-    password => 'developer',
+    password => 'D3v3loper!',
     groups   => ['Administrators'],
   }
 
